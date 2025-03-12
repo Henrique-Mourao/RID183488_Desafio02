@@ -1,14 +1,12 @@
 /* Global styles */
-html {
-    font-family: "Montserrat", sans-serif;
+html, body {
+    margin: 0;
+    padding: 0;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
-}
-
-body {
-    margin: 0;
 }
 
 h1 {
@@ -42,18 +40,18 @@ p {
     font-weight: 600;
     margin: 0;
 }
+
 #header {
     width: 100%;
     height: 3rem;
     padding: .8rem 0;
     background-color: #02a28f;
-    padding: 10px;
     text-align: center;
 }
 
 #cabeçalho {
-    position: absolute;
-    left: calc(7%);
+    position: relative;
+    text-align: center;
 }
 
 .grid {
@@ -207,9 +205,8 @@ ul > li {
     color: #ffffff;
     text-align: center;
     padding: 1rem 0 1rem;
-    padding: 10px;
-    text-align: center;
 }
+
 #footer p {
     font-size: .8rem;
     font-weight: 600;
@@ -341,22 +338,22 @@ ul > li {
     #container {
         width: 90%;
         background-image: url(./img/banner_article.png);
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 1.3rem;
     }
     .postCards {
-        width: 26.5rem;
+        width: 100%;
         left: 0;
     }
     #postCards {
-        width: 23rem;
+        width: 100%;
         height: 2.5rem;
-        left: 1%;
+        left: 0;
         top: .5rem;
     }
     #card img {
         text-align: center;
-        width: 26.5rem;
+        width: 100%;
     }
     #card {
         left: 0;
@@ -364,27 +361,27 @@ ul > li {
         display: block; 
     }
     .posts {
-        width: 25rem;
+        width: 100%;
         margin-top: 2rem;
-        margin-left: 4%;
+        margin-left: 0;
     }
     #posts {
-        width: 98%;
+        width: 100%;
         text-align: center;
         padding: .8rem 0 0 0;
     }
     .categorias {
-        width: 25rem;
+        width: 100%;
     }
     #categorias {
-        margin-left: 1%;
-        width: 97%;
+        margin-left: 0;
+        width: 100%;
         padding: .8rem 0;
         text-align: center;
     }
     .lista {
         margin-left: 0;
-        width: 98%;
+        width: 100%;
         padding-top: 0;
     }
     #footer {
