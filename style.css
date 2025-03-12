@@ -328,7 +328,7 @@ ul > li {
     }
     #cabeçalho {
         left: 0;
-        position: relative;
+        position: center;
         text-align: center;
     }
     .grid {
@@ -336,7 +336,7 @@ ul > li {
         height: 32.5rem;
     }
     #container {
-        width: 90%;
+        width: 100%;
         background-image: url(./img/banner_article.png);
         margin-left: 5%;
         margin-top: 1.3rem;
@@ -386,15 +386,5 @@ ul > li {
     }
     #footer {
         text-align: center;
-    }
-}
-
-#header h1, #footer p {
-    font-size: 1.5em;
-}
-
-@media (max-width: 600px) {
-    #header h1, #footer p {
-        font-size: 1.2em;
     }
 }
