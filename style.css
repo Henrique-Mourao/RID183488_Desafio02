@@ -47,6 +47,8 @@ p {
     height: 3rem;
     padding: .8rem 0;
     background-color: #02a28f;
+    padding: 10px;
+    text-align: center;
 }
 
 #cabeçalho {
@@ -205,11 +207,14 @@ ul > li {
     color: #ffffff;
     text-align: center;
     padding: 1rem 0 1rem;
+    padding: 10px;
+    text-align: center;
 }
 #footer p {
     font-size: .8rem;
     font-weight: 600;
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 /* Media queries para design responsivo */
@@ -380,5 +385,15 @@ ul > li {
         margin-left: 0;
         width: 98%;
         padding-top: 0;
+    }
+}
+
+#header h1, #footer p {
+    font-size: 1.5em;
+}
+
+@media (max-width: 600px) {
+    #header h1, #footer p {
+        font-size: 1.2em;
     }
 }
