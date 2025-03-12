@@ -1,4 +1,3 @@
 # RID183488_Desafio02
-Trabalho de responsividade
 
-Link do Netlify: 
+Link do Netlify: https://dnc-responsividade.netlify.app/
