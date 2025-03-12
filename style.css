@@ -327,6 +327,7 @@ ul > li {
     #header {
         height: 2rem;
         padding: 1rem 0;
+        text-align: center;
     }
     #cabeçalho {
         left: 0;
@@ -385,6 +386,9 @@ ul > li {
         margin-left: 0;
         width: 98%;
         padding-top: 0;
+    }
+    #footer {
+        text-align: center;
     }
 }
 
